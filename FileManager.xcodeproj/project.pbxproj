@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A32CCA295F373F00CCA2B0 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A32CC9295F373F00CCA2B0 /* ResetPasswordViewController.swift */; };
 		45F33EE8295E40AD00F8572A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F33EE7295E40AD00F8572A /* AppDelegate.swift */; };
 		45F33EEA295E40AD00F8572A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F33EE9295E40AD00F8572A /* SceneDelegate.swift */; };
-		45F33EEC295E40AD00F8572A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F33EEB295E40AD00F8572A /* ViewController.swift */; };
-		45F33EEF295E40AD00F8572A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F33EED295E40AD00F8572A /* Main.storyboard */; };
+		45F33EEC295E40AD00F8572A /* DocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F33EEB295E40AD00F8572A /* DocViewController.swift */; };
 		45F33EF1295E40B200F8572A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F33EF0295E40B200F8572A /* Assets.xcassets */; };
 		45F33EF4295E40B200F8572A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F33EF2295E40B200F8572A /* LaunchScreen.storyboard */; };
+		45F33EFC295E413100F8572A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F33EFB295E413100F8572A /* LoginViewController.swift */; };
+		45F33EFE295E41F300F8572A /* DocTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F33EFD295E41F300F8572A /* DocTableViewCell.swift */; };
+		45F33F00295E425000F8572A /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F33EFF295E425000F8572A /* SettingsTableViewCell.swift */; };
+		45F33F02295E428800F8572A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F33F01295E428800F8572A /* SettingsViewController.swift */; };
+		45F33F05295E437400F8572A /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 45F33F04295E437400F8572A /* KeychainAccess */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45A32CC9295F373F00CCA2B0 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		45F33EE4295E40AD00F8572A /* FileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F33EE7295E40AD00F8572A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F33EE9295E40AD00F8572A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45F33EEB295E40AD00F8572A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		45F33EEE295E40AD00F8572A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45F33EEB295E40AD00F8572A /* DocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewController.swift; sourceTree = "<group>"; };
 		45F33EF0295E40B200F8572A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F33EF3295E40B200F8572A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F33EF5295E40B200F8572A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F33EFB295E413100F8572A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45F33EFD295E41F300F8572A /* DocTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTableViewCell.swift; sourceTree = "<group>"; };
+		45F33EFF295E425000F8572A /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		45F33F01295E428800F8572A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F33F05295E437400F8572A /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +68,12 @@
 			children = (
 				45F33EE7295E40AD00F8572A /* AppDelegate.swift */,
 				45F33EE9295E40AD00F8572A /* SceneDelegate.swift */,
-				45F33EEB295E40AD00F8572A /* ViewController.swift */,
-				45F33EED295E40AD00F8572A /* Main.storyboard */,
+				45F33EFB295E413100F8572A /* LoginViewController.swift */,
+				45F33EEB295E40AD00F8572A /* DocViewController.swift */,
+				45F33EFD295E41F300F8572A /* DocTableViewCell.swift */,
+				45F33F01295E428800F8572A /* SettingsViewController.swift */,
+				45F33EFF295E425000F8572A /* SettingsTableViewCell.swift */,
+				45A32CC9295F373F00CCA2B0 /* ResetPasswordViewController.swift */,
 				45F33EF0295E40B200F8572A /* Assets.xcassets */,
 				45F33EF2295E40B200F8572A /* LaunchScreen.storyboard */,
 				45F33EF5295E40B200F8572A /* Info.plist */,
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = FileManager;
+			packageProductDependencies = (
+				45F33F04295E437400F8572A /* KeychainAccess */,
+			);
 			productName = FileManager;
 			productReference = 45F33EE4295E40AD00F8572A /* FileManager.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 45F33EDB295E40AC00F8572A;
+			packageReferences = (
+				45F33F03295E437400F8572A /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 45F33EE5295E40AD00F8572A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +147,6 @@
 			files = (
 				45F33EF4295E40B200F8572A /* LaunchScreen.storyboard in Resources */,
 				45F33EF1295E40B200F8572A /* Assets.xcassets in Resources */,
-				45F33EEF295E40AD00F8572A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F33EEC295E40AD00F8572A /* ViewController.swift in Sources */,
+				45F33EFC295E413100F8572A /* LoginViewController.swift in Sources */,
+				45F33EFE295E41F300F8572A /* DocTableViewCell.swift in Sources */,
+				45F33F02295E428800F8572A /* SettingsViewController.swift in Sources */,
+				45F33F00295E425000F8572A /* SettingsTableViewCell.swift in Sources */,
+				45F33EEC295E40AD00F8572A /* DocViewController.swift in Sources */,
+				45A32CCA295F373F00CCA2B0 /* ResetPasswordViewController.swift in Sources */,
 				45F33EE8295E40AD00F8572A /* AppDelegate.swift in Sources */,
 				45F33EEA295E40AD00F8572A /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		45F33EED295E40AD00F8572A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45F33EEE295E40AD00F8572A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		45F33EF2295E40B200F8572A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +308,6 @@
 				INFOPLIST_FILE = FileManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +335,6 @@
 				INFOPLIST_FILE = FileManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45F33F03295E437400F8572A /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45F33F04295E437400F8572A /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45F33F03295E437400F8572A /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 45F33EDC295E40AC00F8572A /* Project object */;
 }
